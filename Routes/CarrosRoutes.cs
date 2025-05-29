@@ -32,8 +32,7 @@ public static class CarrosRoutes
             carro.Modelo = updated.Modelo;
             carro.Marca = updated.Marca;
             carro.Ano = updated.Ano;
-            carro.Disponivel = updated.Disponivel;
-
+            
             await db.SaveChangesAsync();
             return Results.Ok(carro);
         });

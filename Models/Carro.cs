@@ -1,22 +1,17 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace CarReservationApi.Models
 {
     public class Carro
     {
         public int Id { get; set; }
 
-        [Required]
-        public string Modelo { get; set; }
+        public string Modelo { get; set; } = string.Empty;
 
-        [Required]
-        public string Marca { get; set; }
+        public string Marca { get; set; } = string.Empty;
 
         public int Ano { get; set; }
 
-        [Required]
-        public string Placa { get; set; }
+        public string Placa { get; set; } = string.Empty;
 
-        public string Status { get; set; } = "Disponível";
+        public string Status { get; set; } = "Disponível"; // <- adicionado
     }
 }
