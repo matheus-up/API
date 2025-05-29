@@ -3398,11 +3398,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\CarReservationApi.csproj",
+      "projectUniqueName": "C:\\Users\\cmass\\Downloads\\reserva_api\\CarReservationApi.csproj",
       "projectName": "CarReservationApi",
-      "projectPath": "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\CarReservationApi.csproj",
+      "projectPath": "C:\\Users\\cmass\\Downloads\\reserva_api\\CarReservationApi.csproj",
       "packagesPath": "C:\\Users\\cmass\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\obj\\",
+      "outputPath": "C:\\Users\\cmass\\Downloads\\reserva_api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\cmass\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -3486,7 +3486,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "CarReservationApi depende de Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (>= 9.0.0-preview.3.24172.9) mas Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 9.0.0-preview.3.24172.9 não foi encontrado. Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 9.0.0-preview.3.24172.13 foi resolvido.",
+      "message": "CarReservationApi depends on Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (>= 9.0.0-preview.3.24172.9) but Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 9.0.0-preview.3.24172.9 was not found. Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore 9.0.0-preview.3.24172.13 was resolved instead.",
       "libraryId": "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore",
       "targetGraphs": [
         "net9.0"
@@ -3496,7 +3496,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "CarReservationApi depende de Microsoft.AspNetCore.Identity.EntityFrameworkCore (>= 9.0.0-preview.3.24172.9) mas Microsoft.AspNetCore.Identity.EntityFrameworkCore 9.0.0-preview.3.24172.9 não foi encontrado. Microsoft.AspNetCore.Identity.EntityFrameworkCore 9.0.0-preview.3.24172.13 foi resolvido.",
+      "message": "CarReservationApi depends on Microsoft.AspNetCore.Identity.EntityFrameworkCore (>= 9.0.0-preview.3.24172.9) but Microsoft.AspNetCore.Identity.EntityFrameworkCore 9.0.0-preview.3.24172.9 was not found. Microsoft.AspNetCore.Identity.EntityFrameworkCore 9.0.0-preview.3.24172.13 was resolved instead.",
       "libraryId": "Microsoft.AspNetCore.Identity.EntityFrameworkCore",
       "targetGraphs": [
         "net9.0"
@@ -3506,7 +3506,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "CarReservationApi depende de Microsoft.AspNetCore.Identity.UI (>= 9.0.0-preview.3.24172.9) mas Microsoft.AspNetCore.Identity.UI 9.0.0-preview.3.24172.9 não foi encontrado. Microsoft.AspNetCore.Identity.UI 9.0.0-preview.3.24172.13 foi resolvido.",
+      "message": "CarReservationApi depends on Microsoft.AspNetCore.Identity.UI (>= 9.0.0-preview.3.24172.9) but Microsoft.AspNetCore.Identity.UI 9.0.0-preview.3.24172.9 was not found. Microsoft.AspNetCore.Identity.UI 9.0.0-preview.3.24172.13 was resolved instead.",
       "libraryId": "Microsoft.AspNetCore.Identity.UI",
       "targetGraphs": [
         "net9.0"
@@ -3516,7 +3516,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "CarReservationApi depende de Microsoft.EntityFrameworkCore.Sqlite (>= 9.0.0-preview.3.24172.2) mas Microsoft.EntityFrameworkCore.Sqlite 9.0.0-preview.3.24172.2 não foi encontrado. Microsoft.EntityFrameworkCore.Sqlite 9.0.0-preview.3.24172.4 foi resolvido.",
+      "message": "CarReservationApi depends on Microsoft.EntityFrameworkCore.Sqlite (>= 9.0.0-preview.3.24172.2) but Microsoft.EntityFrameworkCore.Sqlite 9.0.0-preview.3.24172.2 was not found. Microsoft.EntityFrameworkCore.Sqlite 9.0.0-preview.3.24172.4 was resolved instead.",
       "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
       "targetGraphs": [
         "net9.0"
@@ -3526,7 +3526,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "CarReservationApi depende de Microsoft.EntityFrameworkCore.Tools (>= 9.0.0-preview.3.24172.2) mas Microsoft.EntityFrameworkCore.Tools 9.0.0-preview.3.24172.2 não foi encontrado. Microsoft.EntityFrameworkCore.Tools 9.0.0-preview.3.24172.4 foi resolvido.",
+      "message": "CarReservationApi depends on Microsoft.EntityFrameworkCore.Tools (>= 9.0.0-preview.3.24172.2) but Microsoft.EntityFrameworkCore.Tools 9.0.0-preview.3.24172.2 was not found. Microsoft.EntityFrameworkCore.Tools 9.0.0-preview.3.24172.4 was resolved instead.",
       "libraryId": "Microsoft.EntityFrameworkCore.Tools",
       "targetGraphs": [
         "net9.0"

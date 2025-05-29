@@ -1,31 +1,20 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using CarReservationApi.Data; // <- esta linha é essencial
+using CarReservationApi.Data;
+using CarReservationApi.Routes;
+using Microsoft.EntityFrameworkCore;
 
-namespace CarReservationApi
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var host = CreateHostBuilder(args).Build();
+var builder = WebApplication.CreateBuilder(args);
 
-            using (var scope = host.Services.CreateScope())
-            {
-                var services = scope.ServiceProvider;
-                var context = services.GetRequiredService<ApplicationDbContext>();
-                DbInitializer.Initialize(context);
-            }
+// Add services to the container.
+builder.Services.AddDbContext<ApplicationDbContext>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-            host.Run();
-        }
+var app = builder.Build();
 
-        public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
-    }
-}
+// Configure the HTTP request pipeline.
+app.UseHttpsRedirection();
+
+app.MapCarrosRoutes();
+app.MapClientesRoutes();
+app.MapReservasRoutes();
+
+app.Run();

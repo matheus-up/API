@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\CarReservationApi.csproj": {}
+    "C:\\Users\\cmass\\Downloads\\reserva_api\\CarReservationApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\CarReservationApi.csproj": {
+    "C:\\Users\\cmass\\Downloads\\reserva_api\\CarReservationApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\CarReservationApi.csproj",
+        "projectUniqueName": "C:\\Users\\cmass\\Downloads\\reserva_api\\CarReservationApi.csproj",
         "projectName": "CarReservationApi",
-        "projectPath": "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\CarReservationApi.csproj",
+        "projectPath": "C:\\Users\\cmass\\Downloads\\reserva_api\\CarReservationApi.csproj",
         "packagesPath": "C:\\Users\\cmass\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cmass\\Downloads\\car_reservation_api_complete\\obj\\",
+        "outputPath": "C:\\Users\\cmass\\Downloads\\reserva_api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\cmass\\AppData\\Roaming\\NuGet\\NuGet.Config"

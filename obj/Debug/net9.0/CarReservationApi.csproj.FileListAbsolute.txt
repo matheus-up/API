@@ -187,3 +187,4 @@ C:\Users\cmass\Downloads\car_reservation_api_complete\obj\Debug\net9.0\refint\Ca
 C:\Users\cmass\Downloads\car_reservation_api_complete\obj\Debug\net9.0\CarReservationApi.pdb
 C:\Users\cmass\Downloads\car_reservation_api_complete\obj\Debug\net9.0\CarReservationApi.genruntimeconfig.cache
 C:\Users\cmass\Downloads\car_reservation_api_complete\obj\Debug\net9.0\ref\CarReservationApi.dll
+C:\Users\cmass\Downloads\car_reservation_api_complete\obj\Debug\net9.0\CarReservationApi.sourcelink.json
