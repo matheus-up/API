@@ -1,20 +1,33 @@
 using CarReservationApi.Data;
-using CarReservationApi.Routes;
+using CarReservationApi.Routes.Carros;
+using CarReservationApi.Routes.Clientes;
+using CarReservationApi.Routes.Reservas;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Configuração do banco de dados
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// Pipeline HTTP
 app.UseHttpsRedirection();
 
-app.MapCarrosRoutes();
-app.MapClientesRoutes();
-app.MapReservasRoutes();
+// Rotas de Carros
+app.MapCarrosGetRoutes();
+app.MapCarrosPostRoutes();
+app.MapCarrosDeleteRoutes();
+
+// Rotas de Clientes
+app.MapClientesGetRoutes();
+app.MapClientesPostRoutes();
+app.MapClientesDeleteRoutes();
+
+// Rotas de Reservas
+app.MapReservasGetRoutes();
+app.MapReservasPostRoutes();
+app.MapReservasDeleteRoutes();
 
 app.Run();
